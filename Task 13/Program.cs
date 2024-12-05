@@ -14,7 +14,7 @@ namespace Task_13 {
             };
             
             // print board
-            for (int i = 0; i < field[i].Length; i++) {
+            for (int i = 0; i < field.Length; i++) {
                 for (int j = 0; j < field[i].Length; j++) {
                     Console.Write(field[i][j]);
                 }
